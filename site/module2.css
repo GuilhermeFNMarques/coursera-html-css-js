@@ -27,6 +27,39 @@ h1 {
     float: left;
 }
 
+.title1 {
+  border: 1px solid black;
+  width: 25%;
+  height: 20%;
+  font-family: Helvetica;
+  color: whitesmoke;
+  float: right;
+  text-align: center;
+  background-color:crimson;
+}
+
+.title2 {
+  border: 1px solid black;
+  width: 25%;
+  height: 20%;
+  font-family: Helvetica;
+  color: whitesmoke;
+  float: right;
+  text-align: center;
+  background-color:turquoise;
+}
+
+.title3 {
+  border: 1px solid black;
+  width: 25%;
+  height: 20%;
+  font-family: Helvetica;
+  color: whitesmoke;
+  float: right;
+  text-align: center;
+  background-color:coral;
+}
+
 .row {
     width: 100%;
 }
