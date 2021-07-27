@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 #header-nav {
     background-color:darkgoldenrod;
     border-radius: 0;

@@ -5,37 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module3</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav id="header-nav" class="navbar-default">
-            <div class="container">
-               <div class="navbar-header"></div>
-
-            <div class="navbar-brand"><h1>Food, LLC</h1></div>
-        <button type="button" class="navbar-toggle collapsed" 
-            data-toggle="collapse" data-target="#collapsable-nav"
-            aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Food, LLC</a>
+                    <button type="button" class="navbar-toggle collapsed" 
+                    data-toggle="collapse" data-target="#collapsable-nav"
+                    aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
             </div>
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 2px;">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#Chicken" class="visible-xs">Chicken</a>
+                    </li>
+                    <li>
+                        <a href="#Beef" class="visible-xs"><br class="hidden-xs">Beef</a>
+                    </li>
+                    <li>
+                        <a href="#Sushi" class="visible-xs"><br class="hidden-xs">Sushi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
             
         </nav>
 
     </header>
 
+    <div id="main-content" class="container">
     <p><h1 class="text-center">Our Menu</h1></p>
 
-    <section>
-        <p>
-        </p>
+    <section class="row">
+        <div class="tile col-xs-12" id="Chicken">
+            <h3 class="title">Chicken</h3>
+            <p class="details">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet dolor eget 
+                nisl sagittis venenatis. Aenean venenatis consectetur tincidunt. In tristique, 
+                turpis vitae luctus euismod, sem sapien auctor eros, ut aliquam justo nulla sit amet quam. 
+                Vestibulum sit amet ultrices ipsum. Aliquam quis dolor eget nunc tincidunt sollicitudin. 
+                Ut ultrices rhoncus placerat. Sed velit metus, convallis vitae iaculis feugiat, imperdiet 
+                et nisi. Nullam nec purus id ex egestas faucibus. Ut molestie ex at libero interdum, non 
+                venenatis lacus vulputate. Suspendisse nec sagittis erat, at eleifend elit. Nam accumsan 
+                ligula justo. Suspendisse nec justo in ex hendrerit convallis eget eu libero. Ut 
+                consectetur aliquam nunc non lacinia. Aliquam vitae libero iaculis, suscipit lacus a, 
+                eleifend purus. Vivamus ac ipsum pretium, fermentum sem a, accumsan eros. Pellentesque a 
+                condimentum nibh. Aliquam erat volutpat. Fusce ac urna quis quam molestie sodales. In ut 
+                euismod ex. Nunc at felis finibus, tempus orci auctor, rhoncus dolor. Proin id quam ut ex 
+                facilisis venenatis. Suspendisse interdum bibendum erat, vestibulum tincidunt ex porta ut. 
+                Sed in est ex. Proin eget risus vulputate, hendrerit urna et, viverra enim. Nunc pulvinar 
+                scelerisque pretium. Pellentesque egestas eu sem quis malesuada. Donec bibendum, ipsum at 
+                tincidunt fermentum, quam mi mattis nunc, quis ullamcorper urna ex vitae dolor. Morbi at 
+                quam felis. Nam tincidunt tortor quis nibh mattis venenatis.Cras congue ac nulla eget dictum. 
+                Duis vulputate vestibulum risus non pellentesque. Nulla eget efficitur orci, non commodo nibh. 
+                Mauris eu odio egestas, rhoncus magna ut, sagittis orci. Ut sit amet ipsum venenatis, 
+                elementum massa vitae, commodo quam. Fusce in dapibus lectus. Ut lobortis vehicula pretium.
+                Sed ut condimentum enim. Nam varius mi at ligula interdum finibus eget ullamcorper urna. 
+                Aenean faucibus venenatis egestas. In accumsan, turpis et ullamcorper suscipit, neque erat 
+                rhoncus tellus, vitae lacinia orci sem id lectus. Integer molestie magna eu pellentesque 
+                porttitor. Vestibulum sodales massa posuere tellus ornare, quis cursus tellus sollicitudin. 
+                Maecenas ac tempus est. Nam sit amet urna vel felis vehicula egestas. Pellentesque pharetra 
+                diam ligula, a pulvinar lorem ultricies non. Curabitur felis lorem, fringilla dictum elementum 
+                quis, ultricies sit amet ex. Nullam vel nulla sed sem ullamcorper venenatis.Nullam scelerisque 
+                orci eleifend, porta dui ut, volutpat leo. Praesent scelerisque bibendum risus faucibus cursus. 
+                In id varius arcu. Aenean eu lorem leo. Phasellus in tristique mauris, vitae congue lacus. 
+                Donec vitae lobortis risus. Aliquam tincidunt dictum venenatis.
+            </p>
+        </div>  
     </section>
 
+    </div>
 </body>
 </html>
 
